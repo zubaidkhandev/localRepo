@@ -10,6 +10,6 @@ class Yasmin extends StatefulWidget {
 class _YasminState extends State<Yasmin> {
   @override
   Widget build(BuildContext context) {
-    return Container(width: 200, height: 200, color: Colors.deepPurple);
+    return Center(child: Container(width: 200, height: 200, color: Colors.deepPurple));
   }
 }
